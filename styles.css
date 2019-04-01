@@ -1,0 +1,178 @@
+
+@media screen and (min-width: 768px){
+body {
+    background-image: url(bulldog.jpg);
+    font-family: 'Fira Sans', 'sans-serif';
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+.navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+.navbar > div {
+    width: 50%;
+}
+
+.nav-button {
+    width: auto !important;
+}
+
+.adoptme {
+    margin: 0; 
+    padding: 0;
+    display: inline;
+}
+
+.navbar > .adoptme > span > span {
+    color: #FF4850;
+}
+
+.navlinks {
+    list-style: none;
+    text-align: right;
+}
+
+.navlinks > li {
+    margin-left: 20px !important;
+    vertical-align: middle !important;
+    display: inline !important;
+   
+}
+
+.navlinks li > a {
+    text-decoration: none;
+    color: #88898B;
+   
+}
+
+li > a:hover {
+color: #FF4850;
+transition-duration: 0.5;
+}
+
+.nav-button {
+    border-radius: 15px;
+    padding: 10px;
+    width: auto !important;
+    background-color: #FF4850;
+    color: white;
+}
+
+.nav-button:hover {
+        background-color: #CCC;
+        transition-duration: 1s;
+    
+}
+
+.main {
+    width: 40%;
+    padding-top: 10%;
+
+}
+.main > h1 {
+    font-weight: 600;
+}
+
+.main > p {
+    font-weight: 300;
+}
+
+.main > h1 > span {
+    color: #FF4850;
+}
+
+.button {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #FF4850;
+    width: auto !important;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: #CCC;
+    transition-duration: 1s;
+}
+}
+
+/*Mobile*/
+body {
+    background-color: #F0ECEE;
+    font-family: 'Fira Sans';
+}
+
+.adoptme {
+    font-weight: 600;
+}
+
+.adoptme > span > span {
+    color: #FF4850;
+}
+
+.navlinks {
+    list-style: none;
+    display: contents;
+    flex-direction: column;
+}
+.links > li > a:hover {
+    color: #FF4850;
+    transition-duration: 0.5s;
+}
+
+.nav-button {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #FF4850;
+    color: white;
+}
+
+.nav-button:hover{
+    background-color: #CCC;
+    transition-duration: 1s;
+}
+
+.button {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #FF4850;
+    width: 100%;
+    color: white;
+}
+
+.main > h1 {
+    font-weight: 600;
+}
+
+.main > p {
+    font-weight: 400;
+}
+
+.h1 > span {
+    color: #FF4850;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
